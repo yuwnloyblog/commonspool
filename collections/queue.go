@@ -2,7 +2,7 @@ package collections
 
 import (
 	"errors"
-	"gxg/commonspool/concurrent"
+	"github.com/yuwnloyblog/commonspool/concurrent"
 	"sync"
 	"time"
 )

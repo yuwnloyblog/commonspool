@@ -2,8 +2,8 @@ package commonspool
 
 import (
 	"errors"
-	"gxg/commonspool/collections"
-	"gxg/commonspool/concurrent"
+	"github.com/yuwnloyblog/commonspool/collections"
+	"github.com/yuwnloyblog/commonspool/concurrent"
 	"math"
 	"sync"
 	"time"

@@ -2,7 +2,7 @@ package commonspool
 
 import (
 	"fmt"
-	"gxg/commonspool/collections"
+	"github.com/yuwnloyblog/commonspool/collections"
 	"sync"
 	"time"
 )
