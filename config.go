@@ -2,7 +2,7 @@ package commonspool
 
 import (
 	"errors"
-	"fmt"
+	//"fmt"
 	"math"
 	"sync"
 )
@@ -266,7 +266,7 @@ func RegistryEvictionPolicy(name string, policy EvictionPolicy) {
 	if name == "" || policy == nil {
 		panic(errors.New("invalid argument"))
 	}
-	fmt.Println("RegistryEvictionPolicy", name)
+	//fmt.Println("RegistryEvictionPolicy", name)
 	policiesMutex.Lock()
 	policies[name] = policy
 	policiesMutex.Unlock()
